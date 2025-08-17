@@ -1,6 +1,7 @@
 import { Features } from "@/components/FeatureSection";
 import { HeroSection } from "@/components/Herosection";
 import { Navbar } from "@/components/Navbar";
+import Newsletter from "@/components/Newsletter";
 import RecentPosts from "@/components/RecentPosts";
 
 export default function Home() {
@@ -8,9 +9,10 @@ export default function Home() {
     <>
       {/* <h1>Har Har Mahadev</h1> */}
       <Navbar />
-      <HeroSection/>
-      <Features/>
-      <RecentPosts/>
+      <HeroSection />
+      <Features />
+      <RecentPosts />
+      <Newsletter />
     </>
   );
 }
