@@ -1,21 +1,22 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
+import Link from "next/link";
+import { BackgroundLines } from "@/components/ui/background-lines";
+import { Button } from "@/components/ui/button";
 
 export function HeroSection() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between py-16 md:py-20 px-6">
-      
-      <div className="max-w-lg text-center md:text-left">
-        <h1 className="text-4xl font-bold tracking-tight">
-          Share Your Ideas. <span className="text-primary">Inspire the World.</span>
-        </h1>
-        <p className="mt-4 text-lg text-muted-foreground">
-          Write blogs, share your thoughts, and connect with like-minded readers.
+    <BackgroundLines className="flex w-full items-center justify-center md:py-14 px-6 h-screen">
+      <div className=" text-center">
+        <div className="md:text-7xl text-3xl font-bold flex flex-col">
+          <span>Share Your Ideas.</span> <span>Inspire the World.</span>
+        </div>
+
+        <p className="mt-4 text-xl text-muted-foreground">
+          Write blogs, share your thoughts, and connect with like-minded
+          readers.
         </p>
-        <div className="mt-6 flex gap-4 justify-center md:justify-start">
+        <div className="mt-8 flex gap-4 justify-center ">
           <Button asChild>
             <Link href="/create">Start Writing</Link>
           </Button>
@@ -24,17 +25,6 @@ export function HeroSection() {
           </Button>
         </div>
       </div>
-
-      
-      <div className="mt-10 md:mt-0 md:ml-8">
-        <Image
-          src="/hero-img.png" 
-          alt="Blogging Illustration"
-          width={600}
-          height={500}
-          className="w-full max-w-md rounded-lg shadow-lg"
-        />
-      </div>
-    </section>
-  )
+    </BackgroundLines>
+  );
 }

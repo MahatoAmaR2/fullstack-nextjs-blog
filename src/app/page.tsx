@@ -1,3 +1,4 @@
+import { Features } from "@/components/FeatureSection";
 import { HeroSection } from "@/components/Herosection";
 import { Navbar } from "@/components/Navbar";
 
@@ -7,6 +8,7 @@ export default function Home() {
       {/* <h1>Har Har Mahadev</h1> */}
       <Navbar />
       <HeroSection/>
+      <Features/>
     </>
   );
 }
