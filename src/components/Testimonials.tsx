@@ -6,35 +6,30 @@ import { cn } from "@/lib/utils";
 type Testimonial = {
   name: string;
   title: string;
-  avatar: string;
   quote: string;
-  rating: number;
 };
 
 const testimonials: Testimonial[] = [
   {
     name: "Aarav Patel",
     title: "Frontend Dev",
-    avatar: "https://i.pravatar.cc/150?img=12",
+
     quote:
       "The editor is clean and fast. Publishing a post takes seconds. Love the dark mode!",
-    rating: 5,
   },
   {
     name: "Sara Khan",
     title: "Technical Writer",
-    avatar: "https://i.pravatar.cc/150?img=32",
+
     quote:
       "Markdown support is excellent—exactly what I need for developer-focused articles.",
-    rating: 5,
   },
   {
     name: "Rohan Gupta",
     title: "Product Designer",
-    avatar: "https://i.pravatar.cc/150?img=48",
+
     quote:
       "Beautiful defaults with room to customize. The UX feels polished throughout.",
-    rating: 4,
   },
 ];
 
