@@ -1,4 +1,5 @@
 import { CallToAction } from "@/components/CallToAction";
+import { FAQs } from "@/components/FAQs";
 import { Features } from "@/components/FeatureSection";
 import { HeroSection } from "@/components/Herosection";
 import { Navbar } from "@/components/Navbar";
@@ -15,8 +16,9 @@ export default function Home() {
       <Features />
       <RecentPosts />
       <Newsletter />
-      <Testimonials/>
-      <CallToAction/>
+      <Testimonials />
+      <CallToAction />
+      <FAQs />
     </>
   );
 }
