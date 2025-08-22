@@ -1,3 +1,4 @@
+import { CallToAction } from "@/components/CallToAction";
 import { Features } from "@/components/FeatureSection";
 import { HeroSection } from "@/components/Herosection";
 import { Navbar } from "@/components/Navbar";
@@ -15,6 +16,7 @@ export default function Home() {
       <RecentPosts />
       <Newsletter />
       <Testimonials/>
+      <CallToAction/>
     </>
   );
 }
