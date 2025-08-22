@@ -56,7 +56,6 @@ export function Navbar() {
         </Link>
       </div>
 
-      {/* Mobile Menu */}
       <div className="flex items-center gap-2 md:hidden h-1/2">
         <ModeToggle />
         <Sheet open={open} onOpenChange={setOpen}>
