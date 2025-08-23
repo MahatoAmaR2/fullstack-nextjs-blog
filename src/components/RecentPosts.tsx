@@ -11,7 +11,7 @@ const RecentPosts = () => {
         {blogs.map((blog) => (
           <div
             key={blog.id}
-            className="border rounded-lg p-4 shadow-sm transform transition-transform duration-300 hover:scale-105"
+            className=" rounded-lg p-4 shadow-2xl dark:shadow-gray-500 transform transition-transform duration-300 hover:scale-105"
           >
             <div className="relative w-full h-[150px] mb-4">
               <Image
